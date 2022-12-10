@@ -1,0 +1,8 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+#id {
+	display: flex;
+	justify-content: space-evenly;
+}

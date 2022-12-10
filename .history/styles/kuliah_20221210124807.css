@@ -1,0 +1,29 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 30px;
+}
+
+#navbar-image {
+	height: 50px;
+}
+
+#content {
+	display: flex;
+}
+
+#sidebar {
+	background-color: #3b6a94;
+	display: flex;
+	col
+}
+
+main {
+	background-color: #cbcbcb;
+	display: flex;
+	flex-grow: 1;
+}

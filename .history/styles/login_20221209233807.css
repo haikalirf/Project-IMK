@@ -1,0 +1,11 @@
+body {
+	background-image: url(/assets/BG_Login.png);
+}
+
+section {
+	display: flex;
+	justify-content: flex-end;
+	height: 100%;
+	width: 100px;
+	background-color: black;
+}

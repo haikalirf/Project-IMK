@@ -1,0 +1,48 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 30px;
+}
+
+#navbar-image {
+	height: 50px;
+}
+
+#content {
+	display: flex;
+}
+
+#sidebar {
+	background-color: #3b6a94;
+	display: flex;
+	flex-direction: column;
+}
+
+a img, a label {
+	color: #f9f9f9;
+}
+
+main {
+	background-color: #cbcbcb;
+	display: flex;
+	flex-grow: 1;
+}
+
+.card {
+	margin: 20px;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.card-body{
+	display: flex;
+	padding: 10px 0px 0px;
+}
+
+.card-text-group {
+	margin-left: 10px;
+}

@@ -1,0 +1,209 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #cbcbcb;
+	font-family: 'readex';
+	font-size: 16px;
+}
+
+@font-face {
+	font-family: 'readex';
+	src:url('/assets/fonts/ReadexPro-Medium.ttf');
+}
+
+img {
+	object-fit: cover;
+}
+
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	background-color: #f9f9f9;
+	z-index: 1;
+	width: 100%;
+	padding: 0px 30px;
+}
+
+#navbar-image {
+	height: 50px;
+}
+
+main {
+	padding-top: 60px;
+	display: flex;
+	height: 100vh;
+}
+
+#sidebar {
+	background-color: #3b6a94;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	position: fixed;
+	height: 100vh;
+}
+
+#sidebar img {
+	width: 80px;
+	height: 80px;
+}
+
+a img, a label {
+	color: #f9f9f9;
+}
+
+.main-rows{
+	margin: 0px;
+	margin-left: 106px;
+	width: calc(100% - 106px);
+	flex: 100;
+}
+
+.card {
+	margin: 15px 0px;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+.card-body{
+	display: flex;
+	padding: 10px 0px 0px;
+}
+
+.card-text-user {
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#card-user {
+	flex: 1;
+}
+
+#card-user img {
+	width: 150px;
+	height: 150px;
+}
+
+#card-pengumuman {
+	flex: 3;
+}
+
+#text-pengumuman {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.col-pilihan {
+	padding: 10px 0px;
+}
+
+.card-pilihan {
+	flex: 1;
+	margin: 10px 0px;
+}
+
+.pilihan-body {
+	display: flex;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.pilihan-body img {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.pilihan-text {
+	margin: 0px 20px;
+}
+
+.pilihan-text h6 {
+	font-size: 0.95em;
+}
+
+.card-extra {
+	flex: 1;
+}
+
+.card-extra-top {
+	display: flex;
+}
+
+.card-extra-top img {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.card-extra-text {
+	margin: 0px 20px;
+}
+
+.card-extra-text h6 {
+	font-size: 0.95em;
+}
+
+.list-group-flush {
+	margin: 20px;
+	padding: 0px;
+}
+
+.card-extra-list-item {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-extra-list-item * {
+	font-size: 0.95em;
+}
+
+.card-gerbang {
+	flex: 1;
+}
+
+.card-jadwal {
+	flex: 2;
+}
+
+.card-jadwal-list-item {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+	body {
+		background-color: black;
+	}
+}
+
+/*\
+TODO responsiveness
+*/

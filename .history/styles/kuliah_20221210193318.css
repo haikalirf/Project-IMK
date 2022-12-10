@@ -1,0 +1,104 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #cbcbcb;
+	font-family: 'readex';
+}
+
+@font-face {
+	font-family: 'readex';
+	src:url('/assets/fonts/ReadexPro-Medium.ttf');
+}
+
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	background-color: #f9f9f9;
+	z-index: 1;
+	width: 100%;
+	padding: 0px 30px;
+}
+
+#navbar-image {
+	height: 50px;
+}
+
+main {
+	padding-top: 60px;
+	display: flex;
+	height: 100vh;
+}
+
+#sidebar {
+	background-color: #3b6a94;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	position: fixed;
+	height: 100vh;
+}
+
+a img, a label {
+	color: #f9f9f9;
+}
+
+.main-rows{
+	margin: 0px;
+	margin-left: 106px;
+	width: calc(100% - 106px);
+	flex: 100;
+}
+
+.card {
+	margin: 15px 0px;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+.card-body{
+	display: flex;
+	padding: 10px 0px 0px;
+}
+
+.card-text-user {
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#card-user {
+	flex: 1;
+}
+
+#card-pengumuman {
+	flex: 3;
+}
+
+#text-pengumuman {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.card-pilihan {
+	margin: 15px;
+	flex: 1;
+}
+
+.pilihan-body {
+	display: flex;
+}

@@ -1,0 +1,13 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 30px;
+}
+
+#navbar-image {
+	height: 100px;
+}

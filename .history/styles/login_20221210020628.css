@@ -1,0 +1,34 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	background-image: url(/assets/BG_Login.png);
+	display: flex;
+	justify-content: flex-end;
+}
+
+section {
+	height: max-content;
+	height: 100vh;
+	width: 20vw;
+	background-color: #f9f9f9;
+}
+
+h1 {
+	font-family: 'futura';
+	font-size: 5em;
+	font-weight: bold;
+	text-align: center;
+	color: #3b6a94;
+}
+
+h4 {
+	font-family: 'futura';
+	color: #3b6a94;
+}
+
+@font-face {
+	font-family: 'futura';
+	src:url('/assets/fonts/FutuMdIt.ttf');
+}

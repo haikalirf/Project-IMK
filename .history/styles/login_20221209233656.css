@@ -1,0 +1,8 @@
+body {
+	background-image: url(/assets/BG_Login.png);
+}
+
+section {
+	display: flex;
+	justify-content;
+}

@@ -1,0 +1,27 @@
+body {
+	background-image: url(/assets/BG_Login.png);
+	display: flex;
+	justify-content: flex-end;
+}
+
+section {
+	height: max-content;
+	height: 100vh;
+	width: 20vw;
+	background-color: white;
+}
+
+h1 {
+	font-family: 'futura';
+	ali
+	color: #434343;
+}
+
+h3 {
+	font-family: 'futura';
+}
+
+@font-face {
+	font-family: 'futura';
+	src:url('/assets/fonts/FutuMdIt.ttf');
+}
