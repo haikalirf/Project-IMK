@@ -145,8 +145,6 @@ a img, a label {
 	border-radius: 10px;
 }
 
-
-/* TODO better responsiveness */
 @media (max-width: 800px) {
 	#cardTop {
 		width: 90%;
@@ -165,7 +163,7 @@ a img, a label {
 	
 	.gambar-parkir {
 		box-sizing: border-box;
-		width: 50%;
+		width: max-content;
 		margin: 10px 0px;
 	}
 	

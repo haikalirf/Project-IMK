@@ -145,8 +145,6 @@ a img, a label {
 	border-radius: 10px;
 }
 
-
-/* TODO better responsiveness */
 @media (max-width: 800px) {
 	#cardTop {
 		width: 90%;
@@ -178,7 +176,7 @@ a img, a label {
 	}
 	
 	#cardBottom {
-		height: 800px;
+		height: ;
 	}
 	
 	#cardBottom * {

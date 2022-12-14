@@ -119,6 +119,11 @@ a img, a label {
 	font-size: 1.4em;
 }
 
+#nama-gambar {
+	position: absolute;
+	
+}
+
 #cardBottom {
 	width: 90%;
 	height: fit-content;
@@ -141,47 +146,11 @@ a img, a label {
 	align-self: center;
 	width: 25%;
 	margin: 20px;
-	background-color: #3b6a94;
-	border-radius: 10px;
 }
 
-
-/* TODO better responsiveness */
+/* TODO */
 @media (max-width: 800px) {
 	#cardTop {
 		width: 90%;
-	}
-}
-
-@media (max-width: 600px) {
-	main {
-		gap: 10px;
-	}
-	
-	.kumpulan-gambar-parkir {
-		flex-direction: column;
-		align-items: center;
-	}
-	
-	.gambar-parkir {
-		box-sizing: border-box;
-		width: 50%;
-		margin: 10px 0px;
-	}
-	
-	.book-button {
-		width: 50%;
-	}
-	
-	#cardTop {
-		height: 150px;
-	}
-	
-	#cardBottom {
-		height: 800px;
-	}
-	
-	#cardBottom * {
-		/* margin: 0px; */
 	}
 }

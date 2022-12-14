@@ -145,15 +145,13 @@ a img, a label {
 	border-radius: 10px;
 }
 
-
-/* TODO better responsiveness */
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
 	#cardTop {
 		width: 90%;
 	}
-}
+} */
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 	main {
 		gap: 10px;
 	}
@@ -174,11 +172,12 @@ a img, a label {
 	}
 	
 	#cardTop {
-		height: 150px;
+		width: 90%;
+		height: 15%;
 	}
 	
 	#cardBottom {
-		height: 800px;
+		height: 80%;
 	}
 	
 	#cardBottom * {

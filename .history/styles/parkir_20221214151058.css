@@ -145,8 +145,6 @@ a img, a label {
 	border-radius: 10px;
 }
 
-
-/* TODO better responsiveness */
 @media (max-width: 800px) {
 	#cardTop {
 		width: 90%;
@@ -155,7 +153,7 @@ a img, a label {
 
 @media (max-width: 600px) {
 	main {
-		gap: 10px;
+		padding-top: 100px;
 	}
 	
 	.kumpulan-gambar-parkir {
@@ -164,24 +162,6 @@ a img, a label {
 	}
 	
 	.gambar-parkir {
-		box-sizing: border-box;
 		width: 50%;
-		margin: 10px 0px;
-	}
-	
-	.book-button {
-		width: 50%;
-	}
-	
-	#cardTop {
-		height: 150px;
-	}
-	
-	#cardBottom {
-		height: 800px;
-	}
-	
-	#cardBottom * {
-		/* margin: 0px; */
 	}
 }

@@ -145,8 +145,6 @@ a img, a label {
 	border-radius: 10px;
 }
 
-
-/* TODO better responsiveness */
 @media (max-width: 800px) {
 	#cardTop {
 		width: 90%;

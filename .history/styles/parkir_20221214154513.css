@@ -146,7 +146,7 @@ a img, a label {
 }
 
 
-/* TODO better responsiveness */
+/* TODO better */
 @media (max-width: 800px) {
 	#cardTop {
 		width: 90%;

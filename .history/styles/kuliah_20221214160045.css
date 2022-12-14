@@ -151,11 +151,6 @@ a img, a label {
 .card-pilihan {
 	flex: 1;
 	margin: 10px;
-	transition: 0.3s;
-}
-
-.card-pilihan:hover {
-	background-color: #dddddd;
 }
 
 .pilihan-body {
@@ -187,12 +182,11 @@ a img, a label {
 
 .card-extra {
 	flex: 1;
+	opacity: 0.6;
 	transition: 0.3s;
 }
 
-.card-extra:hover {
-	background-color: #dddddd;
-}
+.card-extra:on
 
 .card-extra-top {
 	display: flex;
