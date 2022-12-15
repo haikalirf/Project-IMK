@@ -25,7 +25,6 @@ input, button, textarea, select {
 }
 p, h1, h2, h3, h4, h5, h6 {
 	overflow-wrap: break-word;
-	margin: 0px;
 }
 #root, #__next {
 	isolation: isolate;
@@ -68,13 +67,14 @@ body {
 }
 
 main {
-	padding-top: 100px;
-	padding-left: 146px;
+	padding-top: 60px;
+	padding-left: 106px;
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	height: 100vh;
 	gap: 20px;
-	flex-wrap: wrap;
-	align-content: flex-start;
 }
 
 #sidebar {
@@ -113,55 +113,8 @@ a img, a label {
 	padding-left: 0px;
 }
 
-.card {
-	width: 370px;
-	height: 300px;
-	border-radius: 10px;
-	padding: 20px;
-}
-
-.card-top {
-	display: flex;
-	justify-content: start;
-	align-items: center;
-}
-
-.card-top img {
-	clip-path: circle();
-}
-
-.card-text {
-	margin-left: 20px;
-}
-
-.list-tugas {
-	margin-top: 20px;
-	overflow-y: auto;
-	padding: 0px 10px;
-}
-
-.list-group-item {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 5px 0px;
-}
-
-@media (max-width: 530px) {
+/* @media (max-width: 620px) {
 	.card {
 		width: 90%;
-		height: 400px;
 	}
-	
-	.card-top {
-		flex-direction: column;
-	}
-	
-	.card-top img {
-		margin-bottom: 20px;
-	}
-	
-	.list-group-item {
-		flex-direction: column;
-	}
-}
+} */
