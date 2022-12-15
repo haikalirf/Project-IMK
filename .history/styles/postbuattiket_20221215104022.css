@@ -1,0 +1,121 @@
+/* CSS Reset */
+/*
+	Josh's Custom CSS Reset
+	https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+  * {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+	display: block;
+	max-width: 100%;
+}
+input, button, textarea, select {
+	font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+	overflow-wrap: break-word;
+}
+#root, #__next {
+	isolation: isolate;
+}
+/* CSS Reset ends */
+
+body {
+	background-color: #cbcbcb;
+	font-family: 'readex';
+	font-size: 16px;
+}
+
+@font-face {
+	font-family: 'readex';
+	src:url('/assets/fonts/ReadexPro-Medium.ttf');
+}
+
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	background-color: #f9f9f9;
+	z-index: 1;
+	width: 100%;
+	padding: 0px 30px;
+}
+
+.navbar-left {
+	display: flex;
+	align-items: center;
+}
+
+.navbar-image {
+	height: 50px;
+}
+
+.navbar-extra {
+	padding-bottom: 5px;
+	margin-left: 15px;
+}
+
+main {
+	padding-top: 60px;
+	padding-left: 106px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	gap: 20px;
+}
+
+#sidebar {
+	background-color: #3b6a94;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	position: fixed;
+	height: 100vh;
+	padding-top: 60px;
+}
+
+#sidebar a:hover {
+	background-color: #266093;
+}
+
+#sidebar img {
+	width: 80px;
+	height: 80px;
+}
+
+a img, a label {
+	color: #f9f9f9;
+}
+
+.btn {
+	background-color: #3b6a94;
+}
+
+.btn:hover {
+	background-color: #266093;
+}
+
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.cards {
+	display: flex;
+	jus
+}
