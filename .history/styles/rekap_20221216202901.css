@@ -67,7 +67,8 @@ body {
 }
 
 main {
-	padding-top: 60px;
+	padding-top: 80px;
+	padding-bottom: 20px;
 	padding-left: 106px;
 	display: flex;
 	flex-direction: column;
@@ -110,6 +111,19 @@ a img, a label {
 
 .list-group-flush {
 	padding-left: 0px;
+}
+
+.card {
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.card-semester {
+	width: 700px;
+}
+
+.buttons {
+	display: flex;
 }
 
 /* @media (max-width: 620px) {

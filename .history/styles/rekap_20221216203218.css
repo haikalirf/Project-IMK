@@ -67,7 +67,8 @@ body {
 }
 
 main {
-	padding-top: 60px;
+	padding-top: 80px;
+	padding-bottom: 20px;
 	padding-left: 106px;
 	display: flex;
 	flex-direction: column;
@@ -110,6 +111,33 @@ a img, a label {
 
 .list-group-flush {
 	padding-left: 0px;
+}
+
+.card {
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.card-semester {
+	width: 700px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.buttons p {
+	background-color: #3b6a94;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 20px;
+	width: 150px;
+	text-align: center;
 }
 
 /* @media (max-width: 620px) {
