@@ -281,9 +281,7 @@ a img, a label {
 		align-self: center;
 	}
 	
-	.card-text-user {
-		align-items: center;
-	}
+	.card-text
 	
 	body {
 		font-size: 0.8em;
