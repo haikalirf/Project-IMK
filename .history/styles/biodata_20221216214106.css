@@ -201,8 +201,8 @@ a img, a label {
 		padding: 0px !important;
 	}
 	
-	.profil img {
-		margin-top: 20px;
+	.card-profil img {
+		margin-top:  20px;
 	}
 	
 	.list-group-flush {

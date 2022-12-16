@@ -67,11 +67,10 @@ body {
 }
 
 main {
-	padding-top: 60px;
+	padding-top: 100px;
 	padding-left: 106px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	height: 100vh;
 	gap: 20px;
@@ -111,124 +110,42 @@ a img, a label {
 
 .list-group-flush {
 	padding-left: 0px;
-	padding-top: 30px;
-}
-
-.profil {
-	width: 900px;
-	height: 250px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px 100px !important;
-}
-
-.profil img {
-	width: 190px;
-	height: 190px;
-	clip-path: circle();
-}
-
-.profil-tag div {
-	width: 200px !important;
-}
-
-.kumpulan-data {
-	width: 1200px;
-	display: flex;
-	justify-content: space-between;
 }
 
 .card {
-	padding: 20px;
+	width: 650px;
+	height: fit-content;
+	min-height: 200px;
 	border-radius: 10px;
 }
 
-.data {
-	width: 350px;
-	height: 450px;
+.card h3 {
+	background-color: #3b6a94;
+	color: #f9f9f9;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+	text-align: center;
 }
 
-.list-group-item {
+.list-group-flush {
+	padding: 0px 15px;
+}
+
+.list-group-item{
 	display: flex;
-	gap: 20px;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 0px;
 }
 
-.list-group-item div {
-	display: flex;
-	justify-content: end;
-	width: 100px;
+.list-group-item p {
+	margin: 0px;
+	vertical-align: middle;
+	padding-left: 5px;
 }
 
-@media (max-width: 1330px) {
-	main {
-		height: fit-content;
-		padding-top: 80px;
-		padding-bottom: 20px;
-	}
-	
+@media (max-width: 620px) {
 	.card {
 		width: 90%;
-	}
-	
-	.profil {
-		width: 90%;
-	}
-	
-	.kumpulan-data {
-		display: flex;
-		flex-direction: column;
-		width: 90%;
-		gap: 10px;
-	}
-	
-	.data {
-		width: 100%;
-		height: fit-content;
-		align-items: center;
-	}
-}
-
-@media (max-width: 960px) {
-	body {
-		font-size: 0.9em;
-	}
-	
-	.profil {
-		flex-direction: column;
-		height: fit-content;
-		padding: 0px !important;
-	}
-	
-	.profil img {
-		margin-top: 20px;
-	}
-	
-	.list-group-flush {
-		align-items: center;
-		justify-content: center;
-		display: flex;
-		flex-direction: column;
-		gap: 20px;
-	}
-	
-	.list-group-item {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 0px;
-	}
-	
-	.list-group-item div {
-		display: flex;
-		flex-direction: column;
-		text-align: center;
-		align-self: center;
-	}
-	
-	.profil-tag div {
-		width: fit-content !important;
 	}
 }
